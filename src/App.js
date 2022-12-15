@@ -1,17 +1,23 @@
 import './App.css';
-import React, { useState } from 'react'
+
+import React, { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Trending from './Pages/Trending';
 import Movies from './Pages/Movies';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SingleMovieCard from './components/SingleMovieCard';
-import Search from '@mui/icons-material/Search';
+import Search from './Pages/Search'
 import Series from './Pages/Series';
+import { useDispatch } from 'react-redux';
+import { fetchAllMovie } from './store/movieSlice';
 
 
 function App() {
-
+  const dispatch=useDispatch()
+   useEffect(() => {
+     dispatch(fetchAllMovie())
+   }, []);
 
   return (
     <div>

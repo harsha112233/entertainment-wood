@@ -12,23 +12,20 @@ const movieSlice = createSlice({
     reducers: {
         getAllmovie(state, action) {
             state.allMovieData = action.payload;
+            
         },
         getMovie(state, action) {
+        
             state.movieData = action.payload
         },
         getSingleMovie(state, action) {
             state.singleMovieData = action.payload
 
-        },
-        filterMovieData(state,action){
-            state.filterData=action.payload.filter(movie =>
-                movie.movietype == "movie"
-              )
         }
     }
 })
 
-export const { getMovie, getSingleMovie, getAllmovie ,filterMovieData} = movieSlice.actions;
+export const { getMovie, getSingleMovie, getAllmovie } = movieSlice.actions;
 
 export default movieSlice.reducer;
 

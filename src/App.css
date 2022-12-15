@@ -41,3 +41,11 @@ body{
     transform: rotate(360deg);
   }
 }
+
+.MuiBadge-badge{
+  color:"red"!important
+}
+
+.css-fvc8ir-MuiBadge-badge{
+  color:"red" !important
+}

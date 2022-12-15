@@ -2,60 +2,61 @@
     "trending": [
       {
         "id":1,
-        "name": "thor",
-        "img":"https://image.tmdb.org/t/p/w300/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
-        "releaseDate": "11-03-2022",
-        "rating":4.5,
+        "name": "Black Adam",
+        "img":"https://image.tmdb.org/t/p/w300/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
+        "releaseDate": "19-10-2022",
+        "rating":7.1,
         "movietype":"movie",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
-        "trailer":"dfdf"
+        "trailer":"https://www.youtube.com/watch?v=b1pMQasDnhM"
+       
       },
       {
         "id":2,
-        "name": "All Quiet on the Western Front ",
-        "img":"https://image.tmdb.org/t/p/w300/6sJcVzGCwrDCBMV0DU6eRzA2UxM.jpg",
-        "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "name": "R.I.P.D. 2: Rise of the Damned",
+        "img":"https://image.tmdb.org/t/p/w300/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
+        "releaseDate":"15-11-2022",
+        "rating":6.9,
         "movietype":"movie",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
-        "trailer":"dfdf"
+        "trailer":"https://www.youtube.com/watch?v=L_REOJnLLNI"
       },
       {
         "id":3,
-        "name": "Black Adam ",
-        "img":"https://image.tmdb.org/t/p/w300/uAeZI1JJbLPq7Bu5dziH7emHeu7.jpg",
+        "name": "Black Panther",
+        "img":"https://image.tmdb.org/t/p/w300/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
-        "movietype":"series",
+        "rating":7.5,
+        "movietype":"movie",
         "description":"Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-        "trailer":"dfdf"
+        "trailer":"https://www.youtube.com/watch?v=8OnkjT3SZV8"
       },
       {
         "id":4,
-        "name": "Terrifier 2 ",
-        "img":"https://image.tmdb.org/t/p/w300/uUeLr12fYHvVPyjI3Hjr2fZ7NaK.jpg",
-        "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "name": "Smile",
+        "img":"https://image.tmdb.org/t/p/w300/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+        "releaseDate":"23-09-2022",
+        "rating":6.8,
         "movietype":"movie",
         "description":"After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night. As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
-        "trailer":"dfdf"
+        "trailer":"https://www.youtube.com/watch?v=1aNyNI6P0U4"
       },
       {
         "id":5,
-        "name": "thor",
-        "img":"https://image.tmdb.org/t/p/w300/6hgEe1w0An5fKi3ZqIUBwOyIN2y.jpg",
-        "releaseDate":"11-03-2022",
-        "rating":4.5,
-        "movietype":"series",
+        "name": "Sniper The White Raven",
+        "img":"https://image.tmdb.org/t/p/w300/lZOODJzwuQo0etJJyBBZJOSdZcW.jpg",
+        "releaseDate":"03-05-2022",
+        "rating":7.4,
+        "movietype":"movie",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
-        "trailer":"dfdf"
+        "trailer":"https://www.youtube.com/watch?v=cZIhRHSXtyU"
       },
       {
         "id":6,
         "name": "All Quiet on the Western Front ",
         "img":"https://image.tmdb.org/t/p/w300/inzPPPr2BsE92m4rHhQn3sf2yPk.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":6.5,
         "movietype":"movie",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
         "trailer":"dfdf"
@@ -65,7 +66,7 @@
         "name": "Black Adam ",
         "img":"https://image.tmdb.org/t/p/w300/qJ579ciJ2vZxVVBJUbz8UwvIGkh.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":8.5,
         "movietype":"movie",
         "description":"Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
         "trailer":"dfdf"
@@ -75,7 +76,7 @@
         "name": "Terrifier 2 ",
         "img":"https://image.tmdb.org/t/p/w300/6GkphwL9s6dZb3DoQS9OQ4LcPgY.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":3.5,
         "movietype":"series",
         "description":"After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night. As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
         "trailer":"dfdf"
@@ -85,7 +86,7 @@
         "name": "thor",
         "img":"https://image.tmdb.org/t/p/w300/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":5.5,
         "movietype":"movie",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
         "trailer":"dfdf"
@@ -105,7 +106,7 @@
         "name": "Black Adam ",
         "img":"https://image.tmdb.org/t/p/w300/lY60e6nqssfZC4reBRzFglayQZ9.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":8.5,
         "movietype":"movie",
         "description":"Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
         "trailer":"dfdf"
@@ -125,7 +126,7 @@
         "name": "thor",
         "img":"https://image.tmdb.org/t/p/w300/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":3.5,
         "movietype":"series",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
         "trailer":"dfdf"
@@ -135,7 +136,7 @@
         "name": "All Quiet on the Western Front ",
         "img":"https://image.tmdb.org/t/p/w300/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":7.5,
         "movietype":"series",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
         "trailer":"dfdf"
@@ -145,7 +146,7 @@
         "name": "Black Adam ",
         "img":"https://image.tmdb.org/t/p/w300/sWoYDNPNZs5MtzPbirXV73tIHrA.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":2.5,
         "movietype":"movie",
         "description":"Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
         "trailer":"dfdf"
@@ -155,7 +156,7 @@
         "name": "Terrifier 2 ",
         "img":"https://image.tmdb.org/t/p/w300/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":7.5,
         "movietype":"movie",
         "description":"After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night. As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
         "trailer":"dfdf"
@@ -165,7 +166,7 @@
         "name": "thor",
         "img":"https://image.tmdb.org/t/p/w300/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
         "releaseDate": "11-03-2022",
-        "rating":4.5,
+        "rating":9.5,
         "movietype":"series",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
         "trailer":"dfdf"
@@ -175,7 +176,7 @@
         "name": "All Quiet on the Western Front ",
         "img":"https://image.tmdb.org/t/p/w300/6sJcVzGCwrDCBMV0DU6eRzA2UxM.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":3.5,
         "movietype":"movie",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
         "trailer":"dfdf"
@@ -185,7 +186,7 @@
         "name": "Black Adam ",
         "img":"https://image.tmdb.org/t/p/w300/uAeZI1JJbLPq7Bu5dziH7emHeu7.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":7.5,
         "movietype":"series",
         "description":"Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
         "trailer":"dfdf"
@@ -195,7 +196,7 @@
         "name": "Terrifier 2 ",
         "img":"https://image.tmdb.org/t/p/w300/uUeLr12fYHvVPyjI3Hjr2fZ7NaK.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":2.5,
         "movietype":"series",
         "description":"After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night. As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
         "trailer":"dfdf"
@@ -205,7 +206,7 @@
         "name": "thor",
         "img":"https://image.tmdb.org/t/p/w300/6hgEe1w0An5fKi3ZqIUBwOyIN2y.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":2.5,
         "movietype":"series",
         "description":"Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
         "trailer":"dfdf"
@@ -235,7 +236,7 @@
         "name": "Terrifier 2 ",
         "img":"https://image.tmdb.org/t/p/w300/6GkphwL9s6dZb3DoQS9OQ4LcPgY.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":9.5,
         "movietype":"series",
         "description":"After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night. As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
         "trailer":"dfdf"
@@ -245,7 +246,7 @@
         "name": "Terrifier 2 ",
         "img":"https://image.tmdb.org/t/p/w300/6GkphwL9s6dZb3DoQS9OQ4LcPgY.jpg",
         "releaseDate":"11-03-2022",
-        "rating":4.5,
+        "rating":3.4,
         "movietype":"series",
         "description":"After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night. As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
         "trailer":"dfdf"

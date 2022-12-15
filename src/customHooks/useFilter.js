@@ -1,9 +1,9 @@
 import React from 'react';
 
-const useFilter = (allmovieData) => {
+const useFilter = (allmovieData,type) => {
    return (
     allmovieData.filter(movie =>
-        movie.movietype == "movie"
+        movie.movietype == type
       )
   );
 }

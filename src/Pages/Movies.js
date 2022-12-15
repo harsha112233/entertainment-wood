@@ -1,87 +1,52 @@
-import { Box } from '@mui/system';
-import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import CustomPagination from '../components/CustomPagination';
-import MovieCard from '../components/MovieCard';
-import useFilter from '../customHooks/useFilter';
-import { fetchAllMovie } from '../store/movieSlice';
+import { Box } from "@mui/system";
+import React, { useEffect, useState, useCallback } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import CustomPagination from "../components/CustomPagination";
+import MovieCard from "../components/MovieCard";
+import useFilter from "../customHooks/useFilter";
+import { fetchAllMovie } from "../store/movieSlice";
 
 const Movies = () => {
+  const [count, setCount] = useState(8);
+  const [sliceData, setSliceData] = useState([]);
   const dispatch = useDispatch();
-  const [count, setCount] = useState(8)
-  // const[sliceMovieData,setSliceMovieData] = useState()
-  const allmovieData = useSelector((state) => state?.movieList?.allMovieData)
 
-  let filterMovie = allmovieData.filter(movie =>
-    movie.movietype == "movie"
-  )
+  const allmovieData = useSelector((state) => state?.movieList?.allMovieData);
 
- 
-  useEffect(()=>{
-    dispatch(fetchAllMovie())
-    
-   },[dispatch])
+  let filterMovie = useFilter(allmovieData, "movie");
+  // let filterMovie = allmovieData.filter((movie) => movie.movietype == "movie");
 
- let sliceMovieData=filterMovie?.slice(count > 8 ? count - 8 : 0, count)
-  //  useEffect(()=>{
-  //   setSliceMovieData(filterMovie?.slice(count > 8 ? count - 8 : 0, count))
-  //  },[count])
-  
-//  useEffect(()=>{
-  console.log("sliceMovieData", sliceMovieData)
- 
-//  },[count])
-  
+  useEffect(() => {
+    setSliceData(filterMovie?.slice(count > 8 ? count - 8 : 0, count));
+  }, [count, allmovieData]);
 
-  // console.log("sliceMovieData",sliceMovieData)
+  const handlePage = (page) => setCount(page * 8);
 
-
-
-
-
-//   console.log("filterMovieData",filterMovieData)
-//   // console.log("filterMovie",filterMovie)
-console.log(allmovieData)
-
-
-//   useEffect(() => {
-//     dispatch(fetchAllMovie())
-//     setFilterMovieData(allmovieData.filter(movie =>
-//     movie.movietype == "movie"
-//   ))
-//   }, []);
-
-//   useEffect(() => {
-//     setFilterMovieData(filterMovieData?.slice(count > 8 ? count - 8 : 0, count))
-//     window.scroll(0, 0);
-//   }, [count])
-
-// console.log("movie")
-  const handlePage = (page) => setCount(page * 8)
-
-
-  // let countValue = Math.ceil(sliceMovieData.length / 8)
-  // console.log(countValue)
-
-
+  let countValue = Math.ceil(filterMovie.length / 8);
 
   return (
     <div>
-      {/* <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}>
-        {
-          sliceMovieData?.map((movie, index) => {
-            return (
-              <MovieCard key={index} movie={movie} />
-
-            )
+      <Box
+        sx={{
+          display: "grid",
+          rowGap: "50px",
+          gridTemplateColumns: " 1fr 1fr 1fr 1fr",
+          placeItems:  "center",
+          padding: "40px 0"
+        }}
+      >
+        {sliceData ? (
+          sliceData.map((movie, index) => {
+            return <MovieCard key={index} movie={movie} />;
           })
-        }
+        ) : (
+          <h1>heee</h1>
+        )}
       </Box>
-      <CustomPagination count={countValue} handlePage={handlePage} />/
- */}
 
+      <CustomPagination count={countValue} handlePage={handlePage} />
     </div>
   );
-}
+};
 
 export default Movies;
