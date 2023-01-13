@@ -6,8 +6,8 @@ const movieSlice = createSlice({
     initialState: {
         allMovieData: [],
         movieData: [],
-        singleMovieData: [],
-        filterData:[]
+        singleMovieData: []
+        
     },
     reducers: {
         getAllmovie(state, action) {

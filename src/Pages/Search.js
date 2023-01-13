@@ -55,11 +55,12 @@ const Search = () => {
           />
         </Box>
         <Box
-          sx={{ padding: "9px 15px", border: "1px solid", background: "white" }}
+          sx={{ padding: "9px 15px",cursor:"pointer",border: "1px solid", background: "white" }}
         >
           <SearchIcon
             onClick={() => handleSearch(movieList)}
             fontSize="large"
+            
           />
         </Box>
       </Box>

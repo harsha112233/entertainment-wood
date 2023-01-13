@@ -35,7 +35,7 @@ const MovieCard = ({ movie }) => {
     const classes = useStyles()
     return (
         <Link style={{textDecoration:"none"}} to={`/singlemovie/${movie.id}`}>
-            <Badge   badgeContent={movie.rating} color="primary">
+            <Badge sx={{zIndex:0}}  badgeContent={movie.rating} color="primary">
                 
             <Card  sx={{ background: "#282C34", color: "white", }} className={classes.cardStyling}>
             <CardMedia
