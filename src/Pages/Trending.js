@@ -8,6 +8,7 @@ import CustomPagination from "../components/CustomPagination";
 const Trending = () => {
   const [page, setPage] = useState(1);
   const data = useSelector((state) => state.movieList.movieData);
+  console.log("data", data);
   const alldata = useSelector((state) => state.movieList.allMovieData);
   const dispatch = useDispatch();
 

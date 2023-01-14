@@ -15,7 +15,7 @@ const movieSlice = createSlice({
             
         },
         getMovie(state, action) {
-        
+          console.log("payload",action.payload)
             state.movieData = action.payload
         },
         getSingleMovie(state, action) {
@@ -33,7 +33,7 @@ export default movieSlice.reducer;
 export function fetchAllMovie() {
     return async function (dispatch) {
         try {
-            const data = await axios.get(`http://localhost:3001/trending`)
+            const data = await axios.get(`http://localhost:8083/movies`)
             dispatch(getAllmovie(data.data))
 
         }
@@ -46,7 +46,7 @@ export function fetchAllMovie() {
 export function fetchMovie(page) {
     return async function (dispatch) {
         try {
-            const data = await axios.get(`http://localhost:3001/trending?_page=${page}&_limit=${8}`)
+            const data = await axios.get(`http://localhost:8083/movies?page=${page}&limit=${8}`)
             dispatch(getMovie(data.data))
 
         }
